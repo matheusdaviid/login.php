@@ -1,19 +1,11 @@
 <!DOCTYPE html>
-<!-- Define o tipo de documento como HTML5 -->
 <html lang="pt-br">
-<!-- Inicia o documento HTML e define o idioma como português do Brasil -->
-
 <head>
-    <!-- Área de configurações da página -->
     <meta charset="UTF-8">
-    <!-- Define o conjunto de caracteres como UTF-8 (permite acentos e caracteres especiais) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Configura a página para se ajustar ao tamanho da tela do dispositivo -->
     <title>Login</title>
-    <!-- Define o título da página (aparece na aba do navegador) -->
 
     <style>
-        /* Estilos CSS para a página */
         body {
             display: flex;
             justify-content: center; /* Centraliza o conteúdo na horizontal */

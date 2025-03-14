@@ -6,8 +6,6 @@ $userForm = $_POST['user'];
 $passwordForm = $_POST['password'];
 
 // Configura a conexão com o banco de dados MySQL
-// 'dbname=db_login' é o nome do banco de dados
-// 'host=127.0.0.1' é o endereço do servidor (local)
 $dsn = 'mysql:dbname=db_login;host=127.0.0.1';
 
 // Usuário do banco de dados (no caso, 'root')
@@ -46,4 +44,3 @@ try {
     // Se ocorrer algum erro na conexão com o banco de dados, exibe a mensagem de erro
     echo 'Erro de conexão: ' . $e->getMessage();
 }
-?>

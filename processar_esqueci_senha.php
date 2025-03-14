@@ -5,8 +5,6 @@ $cpf = $_POST['cpf']; // CPF do usuário
 $nova_senha = $_POST['nova_senha']; // Nova senha que o usuário deseja cadastrar
 
 // Configura a conexão com o banco de dados MySQL
-// 'dbname=db_login' é o nome do banco de dados
-// 'host=127.0.0.1' é o endereço do servidor (local)
 $dsn = 'mysql:dbname=db_login;host=127.0.0.1';
 
 // Usuário do banco de dados (no caso, 'root')

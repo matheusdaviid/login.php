@@ -1,7 +1,5 @@
 <?php
 // Configura a conexão com o banco de dados MySQL
-// 'dbname=db_login' é o nome do banco de dados
-// 'host=127.0.0.1' é o endereço do servidor (local)
 $dsn = 'mysql:dbname=db_login;host=127.0.0.1';
 
 // Usuário do banco de dados (no caso, 'root')
@@ -9,6 +7,8 @@ $user = 'root';
 
 // Senha do banco de dados (vazia no exemplo)
 $password = '';
+
+
 
 // Tenta conectar ao banco de dados
 try {
@@ -28,21 +28,13 @@ try {
 ?>
 
 <!DOCTYPE html>
-<!-- Define o tipo de documento como HTML5 -->
 <html lang="pt-br">
-<!-- Inicia o documento HTML e define o idioma como português do Brasil -->
-
 <head>
-    <!-- Área de configurações da página -->
     <meta charset="UTF-8">
-    <!-- Define o conjunto de caracteres como UTF-8 (permite acentos e caracteres especiais) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Configura a página para se ajustar ao tamanho da tela do dispositivo -->
     <title>Usuários</title>
-    <!-- Define o título da página (aparece na aba do navegador) -->
 
     <style>
-        /* Estilos CSS para a página */
         body {
             background-color: #0e0e0e; /* Cor de fundo preta */
             color: #f2f2f2; /* Cor do texto branca */
